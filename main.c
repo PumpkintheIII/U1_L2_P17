@@ -8,6 +8,9 @@
 int main(void) { //define main function
   int character; //initialize variable as integer
 
+  printf("This program allows the user to input a character and the program will output it's corresonding ASCII Code. You will get a prompt:\n\t- Character: Please enter 1 character here.\n");
+  //instructions
+  
   printf("Character: "); //ask for user input
   character = getchar(); //accept input
   
