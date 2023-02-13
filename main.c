@@ -3,9 +3,15 @@
   ASCII Code from Character
   Max Gombos
 */
-#include <stdio.h>
+#include <stdio.h> //import input and output functions
 
-int main(void) {
+int main(void) { //define main function
+  int character; //initialize variable as integer
+
+  printf("Character: "); //ask for user input
+  character = getchar(); //accept input
+  
+  printf("Number: %d", character); //print output
   
   return 0;
 }
